@@ -12,6 +12,10 @@
   font-weight: $font-black;
   line-height: normal;
   border-radius: $r-sm;
+
+  &:hover {
+    filter: brightness(120%);
+  }
 }
 
 .buttonJoin {
@@ -20,4 +24,5 @@
 
 .buttonCreate {
   background: $bunting;
+  margin-top: $md;
 }

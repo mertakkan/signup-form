@@ -17,6 +17,7 @@ li {
 }
 
 ul {
+  gap: 10px;
   display: flex;
   flex-direction: row;
 }
@@ -44,6 +45,7 @@ body {
   align-items: center;
   width: 702px;
   height: 931px;
+  margin: 50px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #e8f1fd;
@@ -88,6 +90,7 @@ body {
   line-height: normal;
   font-style: normal;
   text-align: center;
+  margin: 30px;
 }
 .text-middle {
   color: #000000;
@@ -98,11 +101,13 @@ body {
   line-height: normal;
   font-style: normal;
   text-align: center;
+  margin: 20px;
 }
 .text-footer {
   display: flex;
   width: 274px;
   flex-direction: column;
+  margin-top: 40px;
   flex-shrink: 0;
   color: #1e2c4b;
   font-size: 14px;
@@ -131,6 +136,10 @@ body {
   line-height: normal;
   border-radius: 5px;
 }
+.buttonJoin:hover,
+.buttonCreate:hover {
+  filter: brightness(120%);
+}
 
 .buttonJoin {
   background: #4968ad;
@@ -138,6 +147,7 @@ body {
 
 .buttonCreate {
   background: #1e2c4b;
+  margin-top: 22px;
 }
 
 .inputBox,
@@ -170,4 +180,5 @@ body {
 .inputBox {
   width: 364px;
   height: 61px;
+  margin-top: 22px;
 }/*# sourceMappingURL=main.css.map */

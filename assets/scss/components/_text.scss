@@ -11,6 +11,7 @@
     line-height: normal;
     font-style: normal;
     text-align: center;
+    margin: $xl;
   }
 
   &-middle {
@@ -22,12 +23,14 @@
     line-height: normal;
     font-style: normal;
     text-align: center;
+    margin: $sm;
   }
 
   &-footer {
     display: flex;
     width: 274px;
     flex-direction: column;
+    margin-top: $xxl;
     flex-shrink: 0;
     color: $bunting;
     font-size: $fs-xs;

@@ -4,9 +4,9 @@
   flex-shrink: 0;
   @include border(2px, solid, $periwinkle, $r-sm);
   background: $white;
-  padding-left: 25px;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-left: $lg;
+  padding-top: $xs;
+  padding-bottom: $xs;
   color: $tangaroa;
   font-family: $first-font;
   font-size: $fs-sm;
@@ -24,4 +24,5 @@
 .inputBox {
   width: 364px;
   height: 61px;
+  margin-top: $md;
 }
