@@ -1,0 +1,23 @@
+.buttonJoin,
+.buttonCreate {
+  @include flex(column, center, center);
+  width: 364px;
+  height: 61px;
+  flex-shrink: 0;
+  color: $white;
+  text-align: center;
+  font-family: $first-font;
+  font-size: $fs-sm;
+  font-style: normal;
+  font-weight: $font-black;
+  line-height: normal;
+  border-radius: $r-sm;
+}
+
+.buttonJoin {
+  background: $mariner;
+}
+
+.buttonCreate {
+  background: $bunting;
+}

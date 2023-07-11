@@ -13,14 +13,20 @@ li {
   list-style: none;
 }
 
-select, input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+select,
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 body {
-  background: $solitude;
-  height: 100vh;
-  padding: 173px 194px;
+  @include flex(column, center, center);
+  background: $alice-blue;
+  flex-shrink: 0;
 }

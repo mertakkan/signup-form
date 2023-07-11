@@ -1,0 +1,27 @@
+.inputBox,
+.inputName {
+  @include flex(row, baseline, center);
+  flex-shrink: 0;
+  @include border(2px, solid, $periwinkle, $r-sm);
+  background: $white;
+  padding-left: 25px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  color: $tangaroa;
+  font-family: $first-font;
+  font-size: $fs-sm;
+  font-style: normal;
+  font-weight: $font-bold;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+.inputName {
+  width: 177px;
+  height: 61px;
+}
+
+.inputBox {
+  width: 364px;
+  height: 61px;
+}

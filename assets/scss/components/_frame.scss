@@ -1,6 +1,8 @@
 .frame {
-  @include flex(column, center, flex-start);
-  background-color: $white;
+  @include flex(column, center, center);
+  width: 702px;
+  height: 931px;
+  flex-shrink: 0;
   border-radius: $r-lg;
-  height: 1200px;
+  background: $solitude;
 }

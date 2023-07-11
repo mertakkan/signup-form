@@ -1,9 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Mulish:wght@700&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;800&display=swap");
 *,
 *:before,
 *:after {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
   -ms-box-sizing: border-box !important;
   box-sizing: border-box !important;
 }
@@ -12,52 +16,158 @@ li {
   list-style: none;
 }
 
-select, input {
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+select,
+input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
 body {
-  background: #E6EAF8;
-  height: 100vh;
-  padding: 173px 194px;
-}
-
-/* 
-Use any margin is below.
-
-.-mb-lg {
-  margin-bottom: $lg;
-}
-
-*/
-/* 
-Use any gap is below.
-
-.-gap-xxs {
-  gap: $xxs;
-}
-
-*/
-/* 
-Use any margin is below.
-
-.-pd-lg {
-  padding: $lg;
-}
-
-*/
-.-pd-lg {
-  padding: 100px;
-}
-
-.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  background-color: #FFFFFF;
-  border-radius: 16px;
-  height: 1200px;
+  align-items: center;
+  background: #f4f9ff;
+  flex-shrink: 0;
 }
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 702px;
+  height: 931px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #e8f1fd;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 642px;
+  height: 871px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 22px 35px 0px rgba(5, 27, 105, 0.12);
+}
+
+.title {
+  display: flex;
+  width: 254px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #1b1c40;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.text-top {
+  display: flex;
+  width: 381px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #1b1c40;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  line-height: normal;
+  font-style: normal;
+  text-align: center;
+}
+.text-middle {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 800;
+  opacity: 0.5;
+  font-family: "Mulish", sans-serif;
+  line-height: normal;
+  font-style: normal;
+  text-align: center;
+}
+.text-footer {
+  display: flex;
+  width: 274px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #1e2c4b;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  line-height: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+.buttonJoin,
+.buttonCreate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 364px;
+  height: 61px;
+  flex-shrink: 0;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 5px;
+}
+
+.buttonJoin {
+  background: #4968ad;
+}
+
+.buttonCreate {
+  background: #1e2c4b;
+}
+
+.inputBox,
+.inputName {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  flex-shrink: 0;
+  border: 2px solid #c8d1e5;
+  border-radius: 5px;
+  background: #ffffff;
+  padding-left: 25px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  color: #1b1c40;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+.inputName {
+  width: 177px;
+  height: 61px;
+}
+
+.inputBox {
+  width: 364px;
+  height: 61px;
+}/*# sourceMappingURL=main.css.map */

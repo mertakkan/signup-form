@@ -1,0 +1,13 @@
+.title {
+  display: flex;
+  width: 254px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: $tangaroa;
+  text-align: center;
+  font-family: $first-font;
+  font-size: $fs-lg;
+  font-style: normal;
+  font-weight: $font-black;
+  line-height: normal;
+}

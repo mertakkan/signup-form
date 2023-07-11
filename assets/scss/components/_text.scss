@@ -1,0 +1,40 @@
+.text {
+  &-top {
+    display: flex;
+    width: 381px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: $tangaroa;
+    font-size: $fs-md;
+    font-weight: $font-bold;
+    font-family: $first-font;
+    line-height: normal;
+    font-style: normal;
+    text-align: center;
+  }
+
+  &-middle {
+    color: $black;
+    font-size: $fs-sm;
+    font-weight: $font-black;
+    opacity: 0.5;
+    font-family: $first-font;
+    line-height: normal;
+    font-style: normal;
+    text-align: center;
+  }
+
+  &-footer {
+    display: flex;
+    width: 274px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: $bunting;
+    font-size: $fs-xs;
+    font-weight: $font-light;
+    font-family: $first-font;
+    line-height: normal;
+    font-style: normal;
+    text-align: center;
+  }
+}
