@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const firstName = document.querySelector("ul .inputName:nth-of-type(1)");
-  const lastName = document.querySelector("ul .inputName:nth-of-type(2)");
-  const email = document.querySelector(".inputBox:nth-of-type(1)");
-  const password = document.querySelector(".inputBox:nth-of-type(2)");
-  const submitBtn = document.querySelector(".buttonCreate");
-  submitBtn.disabled = true;
+  const firstName = document.querySelector("#firstName");
+  const lastName = document.querySelector("#lastName");
+  const email = document.querySelector("#email");
+  const password = document.querySelector("#password");
+  const submitBtn = document.querySelector("#submitButton");
+  const form = document.querySelector("#signupForm");
 
   function getInputValues() {
     return {
@@ -61,9 +61,5 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Password: ", inputs.password);
   }
 
-  [firstName, lastName, email, password].forEach((inputField) => {
-    inputField.addEventListener("input", updateSubmitButtonStatus);
-  });
-
-  submitBtn.addEventListener("click", logInputValues);
+  form.addEventListener("submit", logInputValues);
 });

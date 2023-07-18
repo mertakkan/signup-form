@@ -9,24 +9,50 @@
 
   <body>
     <div class="frame">
-      <div class="form">
+      <form id="signupForm" class="form">
         <div class="title">Join the community</div>
         <div class="text-top">
           Take your art to the next level. Get it seen by millions of people.
         </div>
-        <div class="buttonJoin">Join with Facebook</div>
+        <button class="buttonJoin">Join with Facebook</button>
         <div class="text-middle">Or</div>
         <ul>
-          <input class="inputName" type="text" placeholder="First name" />
-          <input class="inputName" type="text" placeholder="Last name" />
+          <input
+            id="firstName"
+            class="inputName"
+            type="text"
+            placeholder="First name"
+            required
+          />
+          <input
+            id="lastName"
+            class="inputName"
+            type="text"
+            placeholder="Last name"
+            required
+          />
         </ul>
-        <input class="inputBox" type="text" placeholder="Email" />
-        <input class="inputBox" type="text" placeholder="Password" />
-        <div class="buttonCreate">Create New Account</div>
+        <input
+          id="email"
+          class="inputBox"
+          type="email"
+          placeholder="Email"
+          required
+        />
+        <input
+          id="password"
+          class="inputBox"
+          type="password"
+          placeholder="Password"
+          required
+        />
+        <button id="submitButton" class="buttonCreate">
+          Create New Account
+        </button>
         <div class="text-footer">
           By joining, you agree to our Terms of Service and Privacy Policy
         </div>
-      </div>
+      </form>
     </div>
     <script src="./assets/js/main.js"></script>
   </body>
